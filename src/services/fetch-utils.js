@@ -1,6 +1,6 @@
 import { client, checkError } from './client';
 
-export function getUser() {
+export async function getUser() {
   return client.auth.session();
 
 }
